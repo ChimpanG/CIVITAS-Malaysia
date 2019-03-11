@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_ICON_22"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_ICON_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_ICON_256"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_ICON_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_ICON_30"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_ICON_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_ICON_36"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_ICON_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_ICON_44"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_ICON_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_ICON_45"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_ICON_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_ICON_48"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_ICON_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_ICON_50"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_ICON_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_ICON_64"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_ICON_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_ICON_80"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_ICON_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UI_ICON_128"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UI_ICON_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UI_ICON_256"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UI_ICON_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UI_ICON_32"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UI_ICON_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UI_ICON_38"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UI_ICON_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UI_ICON_50"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UI_ICON_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UI_ICON_80"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UI_ICON_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UU_ICON_22"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UU_ICON_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UU_ICON_256"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UU_ICON_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UU_ICON_32"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UU_ICON_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UU_ICON_80"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UU_ICON_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_MALAYSIA_CityStateQuest"/>
+			<m_ObjectName text="CVS_MALAYSIA_CityStateQuest"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UU_PORTRAIT_200"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UU_PORTRAIT_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UU_PORTRAIT_256"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UU_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UU_PORTRAIT_38"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UU_PORTRAIT_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UU_PORTRAIT_50"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UU_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UU_PORTRAIT_70"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UU_PORTRAIT_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UU_PORTRAIT_95"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UU_PORTRAIT_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_CIVILIZATION_CVS_MALAYSIA_UI"/>
+			<m_ObjectName text="MOMENT_CIVILIZATION_CVS_MALAYSIA_UI"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_CIVILIZATION_CVS_MALAYSIA_UU"/>
+			<m_ObjectName text="MOMENT_CIVILIZATION_CVS_MALAYSIA_UU"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

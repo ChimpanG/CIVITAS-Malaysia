@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="TileBase"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="DIS_HBR_Dermaga_Brazier"/>
+			<m_ObjectName text="DIS_HBR_Dermaga_Brazier"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_HBR_Dermaga_Ends"/>
+			<m_ObjectName text="DIS_HBR_Dermaga_Ends"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_HBR_Dermaga_Base_03"/>
+			<m_ObjectName text="DIS_HBR_Dermaga_Base_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_HBR_Dermaga_Seaport_03"/>
+			<m_ObjectName text="DIS_HBR_Dermaga_Seaport_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_HBR_Dermaga_Shipyard_03"/>
+			<m_ObjectName text="DIS_HBR_Dermaga_Shipyard_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Dermaga_Reef_A"/>
+			<m_ObjectName text="Dermaga_Reef_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Dermaga_Reef_B"/>
+			<m_ObjectName text="Dermaga_Reef_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Dermaga_Reef_C"/>
+			<m_ObjectName text="Dermaga_Reef_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Dermaga_Reef_Decal"/>
+			<m_ObjectName text="Dermaga_Reef_Decal"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

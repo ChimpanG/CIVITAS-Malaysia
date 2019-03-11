@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="CVS_ISKANDAR_1"/>
+			<m_ObjectName text="CVS_ISKANDAR_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_ISKANDAR_4"/>
+			<m_ObjectName text="CVS_ISKANDAR_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_ISKANDAR_BACKGROUND"/>
+			<m_ObjectName text="LEADER_CVS_ISKANDAR_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_ISKANDAR_NEUTRAL"/>
+			<m_ObjectName text="LEADER_CVS_ISKANDAR_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_ISKANDAR_PORTRAIT_256"/>
+			<m_ObjectName text="LEADER_CVS_ISKANDAR_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_ISKANDAR_PORTRAIT_32"/>
+			<m_ObjectName text="LEADER_CVS_ISKANDAR_PORTRAIT_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_ISKANDAR_PORTRAIT_45"/>
+			<m_ObjectName text="LEADER_CVS_ISKANDAR_PORTRAIT_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_ISKANDAR_PORTRAIT_50"/>
+			<m_ObjectName text="LEADER_CVS_ISKANDAR_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_ISKANDAR_PORTRAIT_55"/>
+			<m_ObjectName text="LEADER_CVS_ISKANDAR_PORTRAIT_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_ISKANDAR_PORTRAIT_64"/>
+			<m_ObjectName text="LEADER_CVS_ISKANDAR_PORTRAIT_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_ISKANDAR_PORTRAIT_80"/>
+			<m_ObjectName text="LEADER_CVS_ISKANDAR_PORTRAIT_80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

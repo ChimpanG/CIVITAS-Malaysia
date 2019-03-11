@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>CIVITAS [ICON_GREATPERSON] Iskandar</Name>
+    <Guid>3f642506-f163-4bc2-bc16-f3b5f4307043</Guid>
+    <ProjectGuid>8d175696-c2e2-48c6-b0fd-0333ddc0c009</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Adds Iskandar for CIVITAS Malaysia.</Teaser>
+    <Description>Adds Iskandar for CIVITAS [ICON_GOVERNMENT] Malaysia.</Description>
+    <Authors>ChimpanG</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <ModProperties>
+      <CompatibleVersions>2.0</CompatibleVersions>
+    </ModProperties>
+    <AssemblyName>CIVITAS Iskandar</AssemblyName>
+    <RootNamespace>CIVITAS Iskandar</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Iskandar_Setup_DB"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Iskandar_Config.sql</File></UpdateDatabase><UpdateText id="Iskandar_Setup_Text"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Iskandar_Localisation.sql</File></UpdateText><UpdateIcons id="Iskandar_Setup_Icon"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Iskandar_Icons.sql</File></UpdateIcons><UpdateColors id="Iskandar_Setup_Colors"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Iskandar_Colors.sql</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Iskandar_DB"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Iskandar_Leader.sql</File><File>Core/Iskandar_UA.sql</File><File>Core/Iskandar_Agenda.sql</File><File>Core/Iskandar_Strategy.sql</File><File>Core/Iskandar_ModSupport.sql</File></UpdateDatabase><UpdateText id="Iskandar_Text"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Iskandar_Localisation.sql</File></UpdateText><UpdateIcons id="Iskandar_Icons"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Iskandar_Icons.sql</File></UpdateIcons><UpdateColors id="Iskandar_Colors"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Iskandar_Colors.sql</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Mod" title="CIVITAS [ICON_GOVERNMENT] Malaysia" id="f4959c6e-9181-4a16-aebc-20690fb07cb9" />
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <Folder Include="Core" />
+    <Folder Include="XLPs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\LeaderFallback.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Iskandar_Agenda.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Iskandar_Colors.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Iskandar_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Iskandar_Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Iskandar_Leader.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Iskandar_Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Iskandar_ModSupport.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Iskandar_Strategy.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Iskandar_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

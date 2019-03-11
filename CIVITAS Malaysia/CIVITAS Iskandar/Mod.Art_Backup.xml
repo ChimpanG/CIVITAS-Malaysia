@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameArtSpecification>
+	<id>
+		<name text="CIVITAS [ICON_GREATPERSON] Iskandar"/>
+		<id text="3f642506-f163-4bc2-bc16-f3b5f4307043"/>
+	</id>
+	<artConsumers>
+		<Element>
+			<consumerName text="Units"/>
+			<relativeArtDefPaths>

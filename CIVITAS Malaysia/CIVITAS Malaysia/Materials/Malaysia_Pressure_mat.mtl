@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..MaterialInstance>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_PRESSURE"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="UILensOverlayTexture"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text=""/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="TransitionLensTexture"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UILensMaterial"/>
+	<m_DataFiles/>
+	<m_Name text="Malaysia_Pressure_mat"/>
+	<m_Description text=""/>
+	<m_Tags/>
+	<m_Groups/>
+</AssetObjects..MaterialInstance>
+

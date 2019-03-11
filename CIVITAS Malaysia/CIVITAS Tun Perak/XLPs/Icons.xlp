@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="CVS_TUN_PERAK_1"/>
+			<m_ObjectName text="CVS_TUN_PERAK_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_TUN_PERAK_4"/>
+			<m_ObjectName text="CVS_TUN_PERAK_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_BACKGROUND"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_NEUTRAL"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_PORTRAIT_256"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_PORTRAIT_32"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_PORTRAIT_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_PORTRAIT_45"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_PORTRAIT_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_PORTRAIT_50"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_PORTRAIT_55"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_PORTRAIT_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_PORTRAIT_64"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_PORTRAIT_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_PORTRAIT_80"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_PORTRAIT_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_UU_ICON_22"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_UU_ICON_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_UU_ICON_256"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_UU_ICON_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_UU_ICON_32"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_UU_ICON_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_UU_ICON_80"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_UU_ICON_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_UU_PORTRAIT_200"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_UU_PORTRAIT_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_UU_PORTRAIT_256"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_UU_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_UU_PORTRAIT_38"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_UU_PORTRAIT_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_UU_PORTRAIT_50"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_UU_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_UU_PORTRAIT_70"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_UU_PORTRAIT_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_TUN_PERAK_UU_PORTRAIT_95"/>
+			<m_ObjectName text="LEADER_CVS_TUN_PERAK_UU_PORTRAIT_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_CIVILIZATION_CVS_MALAYSIA_UU"/>
+			<m_ObjectName text="MOMENT_CIVILIZATION_CVS_MALAYSIA_UU"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

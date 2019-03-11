@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="StrategicView_Sprite"/>
+	<m_PackageName text="UI/StrategicView"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UI_SV_REVEALED"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UI_SV_REVEALED"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UI_SV_REVEALED_CONSTRUCTION"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UI_SV_REVEALED_CONSTRUCTION"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UI_SV_REVEALED_PILLAGED"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UI_SV_REVEALED_PILLAGED"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UI_SV_VISIBLE"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UI_SV_VISIBLE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UI_SV_VISIBLE_CONSTRUCTION"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UI_SV_VISIBLE_CONSTRUCTION"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVILIZATION_CVS_MALAYSIA_UI_SV_VISIBLE_PILLAGED"/>
+			<m_ObjectName text="CIVILIZATION_CVS_MALAYSIA_UI_SV_VISIBLE_PILLAGED"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

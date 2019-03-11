@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UILensAsset"/>
+	<m_PackageName text="LensAssets"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Malaysia_Overlay"/>
+			<m_ObjectName text="Malaysia_Overlay"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Malaysia_Pressure"/>
+			<m_ObjectName text="Malaysia_Pressure"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

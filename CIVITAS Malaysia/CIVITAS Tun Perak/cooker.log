@@ -1,0 +1,12 @@
+Starting AssetCooker...
+OPENCL ACCELERATION IS NOT AVAILABLE!  Your cooks will be SLOOOOWWW!  Please inform an engineer.
+XLP cook starting...
+\\WDMYCLOUD\Sam\Projects\Modding\Civ VI\IdeaProjects\GitHub\CIVITAS-Malaysia\CIVITAS Malaysia\CIVITAS Tun Perak\XLPs\Units.xlp
+Opened output file: C:\Users\Sam\Documents\My Games\Sid Meier's Civilization VI\Mods\CIVITAS Tun Perak\Platforms\MacOS\BLPs/units/units.blp    For XLP: '\\WDMYCLOUD\Sam\Projects\Modding\Civ VI\IdeaProjects\GitHub\CIVITAS-Malaysia\CIVITAS Malaysia\CIVITAS Tun Perak\XLPs\Units.xlp'
+Starting 'units/units'
+Load finished for: 'units/units' in 0.194 seconds
+Cook finished for: 'units/units' in 0.001 seconds
+Disk write finished for: 'units/units' in 0.028 seconds
+Cleanup finished for: 'units/units' in 0.004 seconds
+XLP cook completed with success.
+Cook completed in 0.250 seconds

@@ -1,0 +1,18 @@
+Starting AssetCooker...
+OPENCL ACCELERATION IS NOT AVAILABLE!  Your cooks will be SLOOOOWWW!  Please inform an engineer.
+XLP cook starting...
+\\WDMYCLOUD\Sam\Projects\Modding\Civ VI\IdeaProjects\GitHub\CIVITAS-Malaysia\CIVITAS Malaysia\CIVITAS Malaysia\XLPs\Units.xlp
+Opened output file: C:\Users\Sam\Documents\My Games\Sid Meier's Civilization VI\Mods\CIVITAS Malaysia\Platforms\MacOS\BLPs/units/units.blp    For XLP: '\\WDMYCLOUD\Sam\Projects\Modding\Civ VI\IdeaProjects\GitHub\CIVITAS-Malaysia\CIVITAS Malaysia\CIVITAS Malaysia\XLPs\Units.xlp'
+Starting 'units/units'
+Load finished for: 'units/units' in 0.087 seconds
+The animation : [Caravel_Attack_Cannons_L.gr2] could not bind to the model : [Lancaran] in the asset : [Lancaran]. If you're expecting it to bind, then ensure that the animation contains at least one track that includes the model, if not then ignore this message.
+The animation : [Caravel_Attack_Cannons_R.gr2] could not bind to the model : [Lancaran] in the asset : [Lancaran]. If you're expecting it to bind, then ensure that the animation contains at least one track that includes the model, if not then ignore this message.
+The animation : [Caravel_Death.gr2] could not bind to the model : [Lancaran] in the asset : [Lancaran]. If you're expecting it to bind, then ensure that the animation contains at least one track that includes the model, if not then ignore this message.
+The animation : [Caravel_RunA.gr2] could not bind to the model : [Lancaran] in the asset : [Lancaran]. If you're expecting it to bind, then ensure that the animation contains at least one track that includes the model, if not then ignore this message.
+The animation : [Caravel_RunStopA.gr2] could not bind to the model : [Lancaran] in the asset : [Lancaran]. If you're expecting it to bind, then ensure that the animation contains at least one track that includes the model, if not then ignore this message.
+The animation : [Caravel_IdleA.gr2] could not bind to the model : [Lancaran] in the asset : [Lancaran]. If you're expecting it to bind, then ensure that the animation contains at least one track that includes the model, if not then ignore this message.
+Cook finished for: 'units/units' in 0.001 seconds
+Disk write finished for: 'units/units' in 0.011 seconds
+Cleanup finished for: 'units/units' in 0.003 seconds
+XLP cook completed with success.
+Cook completed in 0.127 seconds

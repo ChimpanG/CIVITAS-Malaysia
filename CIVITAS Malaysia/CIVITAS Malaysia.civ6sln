@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# ModBuddy Solution File, Format Version 12.00
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CIVITAS Malaysia", "CIVITAS Malaysia\CIVITAS Malaysia.civ6proj", "{20E7769B-501D-45F4-B81A-5BFD0405C01C}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CIVITAS Iskandar", "CIVITAS Iskandar\CIVITAS Iskandar.civ6proj", "{8D175696-C2E2-48C6-B0FD-0333DDC0C009}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CIVITAS Tun Perak", "CIVITAS Tun Perak\CIVITAS Tun Perak.civ6proj", "{D6AFA502-60CC-414B-93E1-27E46CC0CD19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Civ6 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20E7769B-501D-45F4-B81A-5BFD0405C01C}.Default|Civ6.ActiveCfg = Default|Civ6
+		{20E7769B-501D-45F4-B81A-5BFD0405C01C}.Default|Civ6.Build.0 = Default|Civ6
+		{8D175696-C2E2-48C6-B0FD-0333DDC0C009}.Default|Civ6.ActiveCfg = Default|Civ6
+		{8D175696-C2E2-48C6-B0FD-0333DDC0C009}.Default|Civ6.Build.0 = Default|Civ6
+		{D6AFA502-60CC-414B-93E1-27E46CC0CD19}.Default|Civ6.ActiveCfg = Default|Civ6
+		{D6AFA502-60CC-414B-93E1-27E46CC0CD19}.Default|Civ6.Build.0 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

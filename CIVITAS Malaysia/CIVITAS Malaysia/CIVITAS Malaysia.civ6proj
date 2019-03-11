@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>CIVITAS [ICON_GOVERNMENT] Malaysia</Name>
+    <Guid>f4959c6e-9181-4a16-aebc-20690fb07cb9</Guid>
+    <ProjectGuid>20e7769b-501d-45f4-b81a-5bfd0405c01c</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Adds Malaysia as a new civilization.</Teaser>
+    <Description>Adds Malaysia as a new civilization.</Description>
+    <Authors>ChimpanG</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <ModProperties>
+      <CompatibleVersions>2.0</CompatibleVersions>
+    </ModProperties>
+    <AssemblyName>CIVITAS Malaysia</AssemblyName>
+    <RootNamespace>CIVITAS Malaysia</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateText id="Malaysia_Setup_Text"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/Malaysia_Localisation.sql</File></UpdateText><UpdateIcons id="Malaysia_Setup_Icons"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/Malaysia_Icons.sql</File></UpdateIcons><UpdateColors id="Malaysia_Setup_Colors"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/Malaysia_Colors.sql</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Malaysia_DB"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/Malaysia_Civilization.sql</File><File>Core/Malaysia_UA.sql</File><File>Core/Malaysia_UU.sql</File><File>Core/Malaysia_UI.sql</File></UpdateDatabase><UpdateText id="Malaysia_Text"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/Malaysia_Localisation.sql</File></UpdateText><UpdateIcons id="Malaysia_Icons"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/Malaysia_Icons.sql</File></UpdateIcons><UpdateColors id="Malaysia_Colors"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/Malaysia_Colors.sql</File></UpdateColors><AddGameplayScripts id="Malaysia_Scripts"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/Malaysia_Scripts.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <Folder Include="Core" />
+    <Folder Include="Core\Archive" />
+    <Folder Include="XLPs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Overlay.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\StrategicView.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\UserInterface.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Archive\Malaysia_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Malaysia_Civilization.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Malaysia_Colors.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Malaysia_Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Malaysia_Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Malaysia_ModSupport.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Malaysia_Scripts.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Malaysia_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Malaysia_UI.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Malaysia_UU.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LensAssets.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\StrategicView.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\TileBase.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Units.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
