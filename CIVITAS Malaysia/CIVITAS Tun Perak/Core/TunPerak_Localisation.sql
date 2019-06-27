@@ -22,9 +22,7 @@ VALUES
 
 	("en_US",	"LOC_TRAIT_LEADER_CVS_TUN_PERAK_UA_NAME",  "Kingmaker"	),
 	("en_US",	"LOC_TRAIT_LEADER_CVS_TUN_PERAK_UA_DESCRIPTION",
-	"Naval units provide +4 Loyalty when garrisoned. Levied units receive +5 [ICON_STRENGTH] Combat Strength. Gains acess to the Pesilat unique unit."	),
-
-	("en_US",	"LOC_MODIFIER_CVS_TUN_PERAK_UA_LEVIED_STRENGTH", "+{1_Amount} Combat from being levied (Kingmaker)"	),
+	"One Economic policy slot in all governments is converted into a Wildcard policy slot. Receive +1 [ICON_FAVOR] Diplomatic Favor per turn for each Legacy policy card active in your government. Gains acess to the Pesilat unique unit."	),
 
 -----------------------------------------------
 -- UU
@@ -32,7 +30,7 @@ VALUES
 
 	("en_US",	"LOC_UNIT_CVS_TUN_PERAK_UU_NAME",	"Pesilat"	),
 	("en_US",	"LOC_UNIT_CVS_TUN_PERAK_UU_DESCRIPTION",	 
-	"A melee unit unique to Malaysia. Costs more than the Swordsman it replaces, but has higher [ICON_STRENGTH] Combat Strength and ignores enemy Zone of Control."),
+	"A Melee unit unique to Malaysia. Replaces the Swordsman, but has higher [ICON_STRENGTH] Combat Strength and ignores enemy Zone of Control."),
 
 -----------------------------------------------
 -- Agenda
@@ -50,7 +48,7 @@ VALUES
 -----------------------------------------------	
 
 	("en_US", "LOC_LOADING_INFO_LEADER_CVS_TUN_PERAK",
-	"Rise, Tun Perak, legendary Bendahara of Malacca. Always looking ahead at the future of your kingdom, your aptitude as a leader will surely bring forth economic stability, but it is distant lands that hold even greater opportunities for trade. Serve your people through diplomacy and shrewd expansion knowing that your allies shall bring forth a golden age of maritime prosperity for Malacca."  	),
+	"Rise, Tun Perak, legendary Bendahara of Malacca. Always looking ahead at the future of your kingdom, distant lands hold opportunities for trade, but your shrewd governance will surely bring forth economic stability. Serve your people through diplomacy and shrewd expansion knowing that your actions shall bring forth a golden age of maritime prosperity for Malacca."  	),
 
 -----------------------------------------------
 -- Diplos | First Meet
@@ -301,7 +299,7 @@ VALUES
 	"Tun Perak is no stranger to the virtues of capitalism."),
 	
 	("en_US", "LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_TUN_PERAK_CHAPTER_DETAILED_BODY",
-	"If anybody knows the value of a strong economy, it's Tun Perak. An additional economic slot in any government offers him enough versatility to support several victory types, but it is perhaps his expansionist nature that will lead him into conflict with other civilizations. With cities on foreign continents starting with trade posts with which to immediate prosper from Malaysia's fishing boat trade bonuses, Tun Perak is unlikely to make many friends in his quest for intercontinental expansion, but his unique unit, the Meriam Lela, will see him safely through any conflict that may arise."	),
+	"Tun Perak places as much value on diplomacy as he does economy. With an economic policy card slot being replaced with a wildcard slot in any government, Tun Perak has enough versatility to support several victory types. He should look to establish the Malaysian unique harbor district, the Dermaga, quickly so that he can use its culture output to unlock key government civics. Establishing government plaza buildings will allow him to use the legacy policy cards in his wildcard slot to earn additional diplomatic favor. He is unlikely to find friends in those competing for city-state allegiance or perhaps those that find themselves a target of his political maneuvering in the world congress, but his unique unit, the Pesilat should safely see him through any conflict that may arise."	),
 
 	("en_US", "LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_TUN_PERAK_CHAPTER_HISTORY_PARA_1",
 	"Bendara Seri Paduka Raja Tun Perak, or better known as Tun Perak, was the fifth and most famous bendahara, a Malay rank similar to a prime minister, during the Sultanate of Malacca. Early in his life, Perak was a soldier-statesman for Malaccan rulers. In 1445, he led the Malaccan army to victory by defeating Siamese invaders on two separate occasions, and as a result, he was made bendahara."),

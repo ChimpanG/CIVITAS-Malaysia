@@ -25,7 +25,8 @@
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
 </Associations>]]></AssociationData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="TunPerak_Setup_DB"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/TunPerak_Config.sql</File></UpdateDatabase><UpdateText id="TunPerak_Setup_Text"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/TunPerak_Localisation.sql</File></UpdateText><UpdateIcons id="TunPerak_Setup_Icons"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/TunPerak_Icons.sql</File></UpdateIcons><UpdateColors id="TunPerak_Setup_Colors"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/TunPerak_Colors.sql</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="TunPerak_DB"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/TunPerak_Leader.sql</File><File>Core/TunPerak_UA.sql</File><File>Core/TunPerak_UU.sql</File><File>Core/TunPerak_Agenda.sql</File><File>Core/TunPerak_Strategy.sql</File><File>Core/TunPerak_ModSupport.sql</File></UpdateDatabase><UpdateText id="TunPerak_Text"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/TunPerak_Localisation.sql</File></UpdateText><UpdateIcons id="TunPerak_Icons"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/TunPerak_Icons.sql</File></UpdateIcons><UpdateColors id="TunPerak_Colors"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/TunPerak_Colors.sql</File></UpdateColors><AddGameplayScripts id="TunPerak_Scripts"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/TunPerak_Scripts.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="TunPerak_DB"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/TunPerak_Leader.sql</File><File>Core/TunPerak_UA.sql</File><File>Core/TunPerak_UU.sql</File><File>Core/TunPerak_Agenda.sql</File><File>Core/TunPerak_Strategy.sql</File><File>Core/TunPerak_ModSupport.sql</File></UpdateDatabase><UpdateText id="TunPerak_Text"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/TunPerak_Localisation.sql</File></UpdateText><UpdateIcons id="TunPerak_Icons"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/TunPerak_Icons.sql</File></UpdateIcons><UpdateColors id="TunPerak_Colors"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/TunPerak_Colors.sql</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -82,6 +83,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\LeaderFallback.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Units.xlp">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>

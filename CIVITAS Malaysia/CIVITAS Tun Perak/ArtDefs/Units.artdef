@@ -3,8 +3,8 @@
 	<m_Version>
 		<major>4</major>
 		<minor>0</minor>
-		<build>315</build>
-		<revision>805</revision>
+		<build>415</build>
+		<revision>990</revision>
 	</m_Version>
 	<m_TemplateName text="Units"/>
 	<m_RootCollections>
@@ -131,8 +131,12 @@
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
+					<Element>
+						<m_CollectionName text="AttachmentVisibility"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
 				</m_ChildCollections>
-				<m_Name text="UNIT_CVS_MALAYSIA_UU"/>
+				<m_Name text="UNIT_CVS_TUN_PERAK_UU"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>

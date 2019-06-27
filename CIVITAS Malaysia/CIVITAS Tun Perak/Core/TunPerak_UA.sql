@@ -4,16 +4,35 @@
 */
 
 -----------------------------------------------
+-- Temporary Views
+-----------------------------------------------
+
+CREATE VIEW IF NOT EXISTS vTunPerakUA AS
+SELECT DISTINCT
+        a.PolicyType
+FROM    Policies AS a
+WHERE   a.PolicyType IN
+(
+'POLICY_GOV_AUTOCRACY',
+'POLICY_GOV_OLIGARCHY',
+'POLICY_GOV_CLASSICAL_REPUBLIC',
+'POLICY_GOV_MONARCHY',
+'POLICY_GOV_THEOCRACY',
+'POLICY_GOV_MERCHANT_REPUBLIC',
+'POLICY_GOV_FASCISM',
+'POLICY_GOV_COMMUNISM',
+'POLICY_GOV_DEMOCRACY'
+);
+
+-----------------------------------------------
 -- Types
 -----------------------------------------------
 
 INSERT INTO	Types
-		(Type,											Kind				)
-VALUES	('TRAIT_LEADER_CVS_TUN_PERAK_UA',				'KIND_TRAIT'		),
-		('MODTYPE_CVS_TUN_PERAK_UA_ATTACH_PLAYERS',		'KIND_MODIFIER'		),
-		('MODTYPE_CVS_TUN_PERAK_UA_TRADE_CAPACITY',		'KIND_MODIFIER'		),
-		('MODTYPE_CVS_TUN_PERAK_UA_PLAYER_STRENGTH',	'KIND_MODIFIER'		),
-		('MODTYPE_CVS_TUN_PERAK_UA_UNIT_STRENGTH',		'KIND_MODIFIER'		);
+		(Type,										Kind			)
+VALUES	('TRAIT_LEADER_CVS_TUN_PERAK_UA',			'KIND_TRAIT'	),
+		('MODTYPE_CVS_TUN_PERAK_UA_GOV_SLOT',		'KIND_MODIFIER'	),
+		('MODTYPE_CVS_TUN_PERAK_UA_ADJUST_FAVOR',	'KIND_MODIFIER'	);
 
 -----------------------------------------------
 -- Traits
@@ -36,103 +55,48 @@ VALUES	('LEADER_CVS_TUN_PERAK',	'TRAIT_LEADER_CVS_TUN_PERAK_UA'	);
 -----------------------------------------------
 
 INSERT INTO	TraitModifiers
-		(TraitType,							ModifierId									)
-VALUES	('TRAIT_LEADER_CVS_TUN_PERAK_UA',	'MODIFIER_CVS_TUN_PERAK_UA_LEVIED_STRENGTH'	);
+		(TraitType,							ModifierId								)
+VALUES	('TRAIT_LEADER_CVS_TUN_PERAK_UA',	'MODIFIER_CVS_TUN_PERAK_UA_GOV_SLOT'	);
 
 -----------------------------------------------
--- BuildingModifiers
+-- PolicyModifiers
 -----------------------------------------------
 
-INSERT INTO	BuildingModifiers
-		(BuildingType,									ModifierId									)
-VALUES	('BUILDING_CVS_TUN_PERAK_UA_DUMMY_FRIENDLY',	'MODIFIER_CVS_TUN_PERAK_UA_UNIT_PRODUCTION'	),
-		('BUILDING_CVS_TUN_PERAK_UA_DUMMY_FRIENDLY',	'MODIFIER_CVS_TUN_PERAK_UA_CS_STRENGTH'		);
-
-INSERT INTO BuildingModifiers (BuildingType, ModifierId)
-SELECT	'BUILDING_CVS_TUN_PERAK_UA_DUMMY_ENEMY',
-		'MODIFIER_CVS_TUN_PERAK_UA_DISABLE_'||UnitType
-FROM	Units WHERE TraitType IS NULL;
+INSERT INTO	PolicyModifiers (PolicyType, ModifierId)
+SELECT	PolicyType,
+		'MODIFIER_CVS_TUN_PERAK_UA_POLICY_FAVOR'
+FROM	vTunPerakUA;
 
 -----------------------------------------------
 -- DynamicModifiers
 -----------------------------------------------
 
 INSERT INTO	DynamicModifiers
-		(ModifierType,									CollectionType,				EffectType										)
-VALUES	('MODTYPE_CVS_TUN_PERAK_UA_UNIT_PRODUCTION',	'COLLECTION_OWNER',			'EFFECT_ADJUST_ALL_UNIT_PRODUCTION_MODIFIER'	),
-		('MODTYPE_CVS_TUN_PERAK_UA_UNIT_DISABLE',		'COLLECTION_OWNER',			'EFFECT_ADJUST_PLAYER_UNIT_BUILD_DISABLED'		),
-		('MODTYPE_CVS_TUN_PERAK_UA_ATTACH_UNITS',		'COLLECTION_PLAYER_UNITS',	'EFFECT_ATTACH_MODIFIER'						),
-		('MODTYPE_CVS_TUN_PERAK_UA_PLAYER_STRENGTH',	'COLLECTION_PLAYER_COMBAT',	'EFFECT_ADJUST_PLAYER_STRENGTH_MODIFIER'		),
-		('MODTYPE_CVS_TUN_PERAK_UA_UNIT_STRENGTH',		'COLLECTION_UNIT_COMBAT',	'EFFECT_ADJUST_PLAYER_STRENGTH_MODIFIER'		);
+		(ModifierType,								CollectionType,		EffectType										)
+VALUES	('MODTYPE_CVS_TUN_PERAK_UA_GOV_SLOT',		'COLLECTION_OWNER',	'EFFECT_REPLACE_PLAYER_GOVERNMENT_SLOT_TYPE'	),
+		('MODTYPE_CVS_TUN_PERAK_UA_ADJUST_FAVOR',	'COLLECTION_OWNER',	'EFFECT_ADJUST_PLAYER_EXTRA_FAVOR_PER_TURN'		);
 
 -----------------------------------------------
 -- Modifiers
 -----------------------------------------------
 
 INSERT INTO	Modifiers
-		(ModifierId,									ModifierType,								OwnerRequirementSetId,				SubjectRequirementSetId				)
-VALUES	('MODIFIER_CVS_TUN_PERAK_UA_UNIT_PRODUCTION',	'MODTYPE_CVS_TUN_PERAK_UA_UNIT_PRODUCTION',	'REQSET_CVS_TUN_PERAK_UA_AT_WAR',	NULL								),
-		('MODIFIER_CVS_TUN_PERAK_UA_CS_STRENGTH',		'MODTYPE_CVS_TUN_PERAK_UA_PLAYER_STRENGTH',	NULL,								NULL								),
-		('MODIFIER_CVS_TUN_PERAK_UA_LEVIED_ATTACH',		'MODTYPE_CVS_TUN_PERAK_UA_ATTACH_UNITS',	NULL,								'REQSET_CVS_TUN_PERAK_UA_IS_LEVIED'	),
-		('MODIFIER_CVS_TUN_PERAK_UA_LEVIED_STRENGTH',	'MODTYPE_CVS_TUN_PERAK_UA_UNIT_STRENGTH',	NULL,								NULL								);
-
-INSERT INTO	Modifiers (ModifierId, ModifierType, OwnerRequirementSetId)
-SELECT	'MODIFIER_CVS_TUN_PERAK_UA_DISABLE_'||UnitType,
-		'MODTYPE_CVS_TUN_PERAK_UA_UNIT_DISABLE',
-		'REQSET_CVS_TUN_PERAK_UA_AT_WAR'
-FROM	Units WHERE TraitType IS NULL;
+		(ModifierId,									ModifierType,								OwnerRequirementSetId,	SubjectRequirementSetId				)
+VALUES	('MODIFIER_CVS_TUN_PERAK_UA_GOV_SLOT',			'MODTYPE_CVS_TUN_PERAK_UA_GOV_SLOT',		NULL,					NULL								),
+		('MODIFIER_CVS_TUN_PERAK_UA_POLICY_FAVOR',		'MODTYPE_CVS_TUN_PERAK_UA_ADJUST_FAVOR',	NULL,					'REQSET_CVS_PLAYER_IS_TUN_PERAK'	);
 
 -----------------------------------------------
 -- ModifierArguments
 -----------------------------------------------
 
 INSERT INTO	ModifierArguments
-		(ModifierId,									Name,			Value										)
-VALUES	('MODIFIER_CVS_TUN_PERAK_UA_UNIT_PRODUCTION',	'Amount',		100											),
-		('MODIFIER_CVS_TUN_PERAK_UA_CS_STRENGTH',		'Amount',		5											),
-		('MODIFIER_CVS_TUN_PERAK_UA_LEVIED_ATTACH',		'ModifierId',	'MODIFIER_CVS_TUN_PERAK_UA_LEVIED_STRENGTH'	),
-		('MODIFIER_CVS_TUN_PERAK_UA_LEVIED_STRENGTH',	'Amount',		5											);
-
-INSERT INTO	ModifierArguments (ModifierId, Name, Value)
-SELECT	'MODIFIER_CVS_TUN_PERAK_UA_DISABLE_'||UnitType,
-		'UnitType',
-		UnitType
-FROM	Units WHERE TraitType IS NULL;
+		(ModifierId,									Name,							Value			)
+VALUES	('MODIFIER_CVS_TUN_PERAK_UA_GOV_SLOT',			'ReplacedGovernmentSlotType',	'SLOT_ECONOMIC'	),
+		('MODIFIER_CVS_TUN_PERAK_UA_GOV_SLOT',			'AddedGovernmentSlotType',		'SLOT_WILDCARD'	),
+		('MODIFIER_CVS_TUN_PERAK_UA_POLICY_FAVOR',		'Amount',						1				);
 
 -----------------------------------------------
--- ModifierStrings
+-- Drop Views
 -----------------------------------------------
 
-INSERT INTO ModifierStrings
-        (ModifierId,									Context,	Text											)
-VALUES  ('MODIFIER_CVS_TUN_PERAK_UA_CS_STRENGTH',		'Preview',	'LOC_MODIFIER_CVS_TUN_PERAK_UA_CS_STRENGTH'		),
-		('MODIFIER_CVS_TUN_PERAK_UA_LEVIED_STRENGTH',	'Preview',	'LOC_MODIFIER_CVS_TUN_PERAK_UA_LEVIED_STRENGTH'	);
-
------------------------------------------------
--- RequirementSets
------------------------------------------------
-
-INSERT INTO RequirementSets
-		(RequirementSetId,						RequirementSetType			)
-VALUES	('REQSET_CVS_TUN_PERAK_UA_AT_WAR',		'REQUIREMENTSET_TEST_ALL'	),
-		('REQSET_CVS_TUN_PERAK_UA_IS_LEVIED',	'REQUIREMENTSET_TEST_ALL'	);
-
------------------------------------------------
--- RequirementSetRequirements
------------------------------------------------
-
-INSERT INTO RequirementSetRequirements
-		(RequirementSetId,						RequirementId						)
-VALUES	('REQSET_CVS_TUN_PERAK_UA_AT_WAR',		'REQ_CVS_TUN_PERAK_UA_AT_WAR'		),
-		('REQSET_CVS_TUN_PERAK_UA_IS_LEVIED',	'REQ_CVS_TUN_PERAK_UA_IS_LEVIED'	);
-
------------------------------------------------
--- Requirements
------------------------------------------------
-
-INSERT INTO Requirements
-		(RequirementId,						RequirementType,				Inverse	)
-VALUES	('REQ_CVS_TUN_PERAK_UA_AT_WAR',		'REQUIREMENT_PLAYER_IS_AT_WAR',	0		),
-		('REQ_CVS_TUN_PERAK_UA_IS_LEVIED',	'REQUIREMENT_UNIT_IS_LEVIED',	0		);
-
-
+DROP VIEW vTunPerakUA;
