@@ -5,9 +5,9 @@ XLP cook starting...
 Opened output file: D:\Documents\my games\Sid Meier's Civilization VI\Mods\Mods\CIVITAS Tun Perak\Platforms\MacOS\BLPs/units/units.blp    For XLP: '\\WDMYCLOUD\Sam\Projects\Modding\Civ VI\IdeaProjects\GitHub\CIVITAS-Malaysia\CIVITAS Malaysia\CIVITAS Tun Perak\XLPs\Units.xlp'
 Could not load digest key: ''.  Using mod key to sign BLP.
 Starting 'units/units'
-Load finished for: 'units/units' in 0.250 seconds
+Load finished for: 'units/units' in 0.227 seconds
 Cook finished for: 'units/units' in 0.001 seconds
-Disk write finished for: 'units/units' in 0.161 seconds
-Cleanup finished for: 'units/units' in 0.003 seconds
+Disk write finished for: 'units/units' in 0.133 seconds
+Cleanup finished for: 'units/units' in 0.002 seconds
 XLP cook completed with success.
-Cook completed in 0.445 seconds
+Cook completed in 0.391 seconds

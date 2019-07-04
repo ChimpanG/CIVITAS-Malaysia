@@ -9,7 +9,7 @@
 	
 INSERT INTO Types
 		(Type,										Kind			)
-VALUES	('TRAIT_CIVILIZATION_CVS_TUN_PERAK_UU',		'KIND_TRAIT'	),
+VALUES	('TRAIT_LEADER_CVS_TUN_PERAK_UU',			'KIND_TRAIT'	),
 		('UNIT_CVS_TUN_PERAK_UU',					'KIND_UNIT'		),
 		('ABILITY_CVS_TUN_PERAK_UU',				'KIND_ABILITY'	),
 		('MODTYPE_CVS_TUN_PERAK_UU_IGNORE_ZOC',		'KIND_MODIFIER'	);
@@ -42,16 +42,16 @@ WHERE 	Type = 'UNIT_SWORDSMAN';
 -----------------------------------------------
 		
 INSERT INTO Traits
-		(TraitType,								Name								)
-VALUES	('TRAIT_CIVILIZATION_CVS_TUN_PERAK_UU',	'LOC_UNIT_CVS_TUN_PERAK_UU_NAME'	);
+		(TraitType,							Name								)
+VALUES	('TRAIT_LEADER_CVS_TUN_PERAK_UU',	'LOC_UNIT_CVS_TUN_PERAK_UU_NAME'	);
 
 -----------------------------------------------
--- CivilizationTraits
+-- LeaderTraits
 -----------------------------------------------
 		
-INSERT INTO CivilizationTraits
-		(CivilizationType,				TraitType								)
-VALUES	('CIVILIZATION_CVS_MALAYSIA',	'TRAIT_CIVILIZATION_CVS_TUN_PERAK_UU'	);
+INSERT INTO LeaderTraits
+		(LeaderType,				TraitType						)
+VALUES	('LEADER_CVS_TUN_PERAK',	'TRAIT_LEADER_CVS_TUN_PERAK_UU'	);
 
 -----------------------------------------------
 -- Units
@@ -80,7 +80,7 @@ INSERT INTO Units	(
 SELECT	'UNIT_CVS_TUN_PERAK_UU',	-- UnitType
 		'LOC_UNIT_CVS_TUN_PERAK_UU_NAME',	-- Name
 		'LOC_UNIT_CVS_TUN_PERAK_UU_DESCRIPTION', -- Description
-		'TRAIT_CIVILIZATION_CVS_TUN_PERAK_UU', -- TraitType
+		'TRAIT_LEADER_CVS_TUN_PERAK_UU', -- TraitType
 		BaseMoves,
 		Cost + 20, -- Cost
 		PurchaseYield,
