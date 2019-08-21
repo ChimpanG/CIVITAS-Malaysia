@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<AssetObjects::GeometryInstance>
+<AssetObjects..GeometryInstance>
 <m_CookParams>
 <m_Values/>
 </m_CookParams>
@@ -11,25 +11,41 @@
 </m_Version>
 <m_Meshes>
 <Element>
-<m_Name text="Dromon#M"/>
+<m_Name text="Dromon"/>
 <m_Groups>
 <Element>
-<m_Name text="None"/>
+<m_Name text="Dromon_DIFF.dds"/>
 <m_nFirstPrim>0</m_nFirstPrim>
 <m_nPrims>2255</m_nPrims>
 </Element>
 </m_Groups>
-<m_nBoundBoneCount>1</m_nBoundBoneCount>
+<m_nBoundBoneCount>13</m_nBoundBoneCount>
 <m_nPrimitiveCount>2255</m_nPrimitiveCount>
-<m_nVertexCount>5435</m_nVertexCount>
+<m_nVertexCount>3211</m_nVertexCount>
 </Element>
 </m_Meshes>
 <m_Bones>
 <Element text="CN6_ADJUSTMENT_BONE_1"/>
-<Element text="Lancaran"/>
-<Element text="Bone"/>
+<Element text="World"/>
+<Element text="Bone_Root"/>
+<Element text="Bone_Mast_Back_01"/>
+<Element text="Bone_Mast_Front_01"/>
+<Element text="FX_Flame_Center"/>
+<Element text="FX_Flame_Center01"/>
+<Element text="FX_Flame_Left"/>
+<Element text="FX_Flame_Right"/>
+<Element text="Bone_Mast_Back_02"/>
+<Element text="Bone_Mast_Flag_01"/>
+<Element text="Bone_Mast_Flag_04"/>
+<Element text="Bone_Mast_Front_03"/>
+<Element text="Bone_Mast_Flag_02"/>
+<Element text="Bone_Mast_Flag_05"/>
+<Element text="Bone_Sail_02"/>
+<Element text="Bone_Sail_1"/>
+<Element text="Bone_Mast_Flag_03"/>
+<Element text="Bone_Mast_Flag_06"/>
 </m_Bones>
-<m_ModelName text="Lancaran"/>
+<m_ModelName text="World"/>
 <m_SourceFilePath text=""/>
 <m_SourceObjectName text=""/>
 <m_ImportedTime>0</m_ImportedTime>
@@ -47,4 +63,4 @@
 <Element text="Unit"/>
 </m_Tags>
 <m_Groups/>
-</AssetObjects::GeometryInstance>
+</AssetObjects..GeometryInstance>
