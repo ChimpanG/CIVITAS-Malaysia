@@ -22,7 +22,7 @@ VALUES
 
 	("en_US",	"LOC_TRAIT_LEADER_CVS_TUN_PERAK_UA_NAME",  "Kingmaker"	),
 	("en_US",	"LOC_TRAIT_LEADER_CVS_TUN_PERAK_UA_DESCRIPTION",
-	"One Economic policy slot in all governments is converted into a Wildcard policy slot. Receive +1 [ICON_FAVOR] Diplomatic Favor per turn for each Legacy policy card active in your government. Gains acess to the Pesilat unique unit."	),
+	"One Economic policy slot in all governments is converted into a Wildcard policy slot. Receive +1 [ICON_FAVOR] Diplomatic Favor per turn for each Legacy policy card active in your government. Gains access to the Pesilat unique unit."	),
 
 -----------------------------------------------
 -- UU
