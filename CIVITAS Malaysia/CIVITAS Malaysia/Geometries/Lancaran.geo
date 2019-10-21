@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<AssetObjects..GeometryInstance>
+<AssetObjects:GeometryInstance>
 <m_CookParams>
 <m_Values/>
 </m_CookParams>
@@ -21,7 +21,7 @@
 </m_Groups>
 <m_nBoundBoneCount>13</m_nBoundBoneCount>
 <m_nPrimitiveCount>2255</m_nPrimitiveCount>
-<m_nVertexCount>3211</m_nVertexCount>
+<m_nVertexCount>3632</m_nVertexCount>
 </Element>
 </m_Meshes>
 <m_Bones>
@@ -63,4 +63,4 @@
 <Element text="Unit"/>
 </m_Tags>
 <m_Groups/>
-</AssetObjects..GeometryInstance>
+</AssetObjects:GeometryInstance>

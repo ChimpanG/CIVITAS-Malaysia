@@ -13,7 +13,7 @@
 				<m_ParamName text="Normal"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="LancaranB_ao"/>
+				<m_ObjectName text="Malay_Lancaran_ao_2"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="AO"/>
 			</Element>
@@ -22,7 +22,7 @@
 				<m_ParamName text="Seperate_AO_UV"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="LancaranB_m"/>
+				<m_ObjectName text="LancaranB_m_2"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Metalness"/>
 			</Element>
@@ -32,7 +32,7 @@
 				<m_ParamName text="TintMask"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="LancaranB_g"/>
+				<m_ObjectName text="LancaranB_g_2"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Gloss"/>
 			</Element>
