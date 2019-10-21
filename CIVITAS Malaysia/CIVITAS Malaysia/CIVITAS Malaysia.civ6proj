@@ -30,7 +30,7 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="Mod.Art.xml" />
+    <None Include="CIVITAS Malaysia.Art.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ArtDefs\" />
