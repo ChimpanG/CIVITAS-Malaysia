@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..MaterialInstance>
+    <m_CookParams>
+        <m_Values>
+            <Element class="AssetObjects..ObjectValue">
+                <m_ObjectName text="gajah_skin_blur"/>
+                <m_eObjectType>TEXTURE</m_eObjectType>
+                <m_ParamName text="BlurWidth"/>
+            </Element>
+            <Element class="AssetObjects..ObjectValue">
+                <m_ObjectName text=""/>
+                <m_eObjectType>TEXTURE</m_eObjectType>
+                <m_ParamName text="Opacity"/>
+            </Element>
+            <Element class="AssetObjects..ObjectValue">
+                <m_ObjectName text=""/>
+                <m_eObjectType>TEXTURE</m_eObjectType>
+                <m_ParamName text="SpecTint"/>
+            </Element>
+            <Element class="AssetObjects..ObjectValue">
+                <m_ObjectName text=""/>
+                <m_eObjectType>TEXTURE</m_eObjectType>
+                <m_ParamName text="Anisotropy"/>
+            </Element>
+            <Element class="AssetObjects..ObjectValue">
+                <m_ObjectName text=""/>
+                <m_eObjectType>TEXTURE</m_eObjectType>
+                <m_ParamName text="Tangent"/>
+            </Element>
+            <Element class="AssetObjects..ObjectValue">
+                <m_ObjectName text=""/>
+                <m_eObjectType>TEXTURE</m_eObjectType>
+                <m_ParamName text="Fuzz"/>
+            </Element>
+            <Element class="AssetObjects..ObjectValue">
+                <m_ObjectName text=""/>
+                <m_eObjectType>TEXTURE</m_eObjectType>
+                <m_ParamName text="FuzzTint"/>
+            </Element>
+            <Element class="AssetObjects..ObjectValue">
+                <m_ObjectName text="gajah_skin_diff_sref_a_2048"/>
+                <m_eObjectType>TEXTURE</m_eObjectType>
+                <m_ParamName text="BaseColor"/>
+            </Element>
+            <Element class="AssetObjects..ObjectValue">
+                <m_ObjectName text="gajah_skin_norm_2048"/>
+                <m_eObjectType>TEXTURE</m_eObjectType>
+                <m_ParamName text="Normal"/>
+            </Element>
+            <Element class="AssetObjects..ObjectValue">
+                <m_ObjectName text="White_AO"/>
+                <m_eObjectType>TEXTURE</m_eObjectType>
+                <m_ParamName text="AO"/>
+            </Element>
+            <Element class="AssetObjects..BoolValue">
+                <m_bValue>false</m_bValue>
+                <m_ParamName text="Seperate_AO_UV"/>
+            </Element>
+            <Element class="AssetObjects..ObjectValue">
+                <m_ObjectName text="gajah_skin_sref_alpha_m_2048"/>
+                <m_eObjectType>TEXTURE</m_eObjectType>
+                <m_ParamName text="Metalness"/>
+            </Element>
+            <Element class="AssetObjects..ObjectValue">
+                <m_ObjectName text=""/>
+                <m_eObjectType>TEXTURE</m_eObjectType>
+                <m_ParamName text="TintMask"/>
+            </Element>
+            <Element class="AssetObjects..ObjectValue">
+                <m_ObjectName text="gajah_skin_sref_alpha_g_2048"/>
+                <m_eObjectType>TEXTURE</m_eObjectType>
+                <m_ParamName text="Gloss"/>
+            </Element>
+            <Element class="AssetObjects..ObjectValue">
+                <m_ObjectName text=""/>
+                <m_eObjectType>TEXTURE</m_eObjectType>
+                <m_ParamName text="Translucency"/>
+            </Element>
+            <Element class="AssetObjects..RGBValue">
+                <m_r>165.000000</m_r>
+                <m_g>40.000000</m_g>
+                <m_b>28.000000</m_b>
+                <m_ParamName text="TranslucencyColor"/>
+            </Element>
+            <Element class="AssetObjects..BoolValue">
+                <m_bValue>false</m_bValue>
+                <m_ParamName text="ForceTransparency"/>
+            </Element>
+        </m_Values>
+    </m_CookParams>
+    <m_Version>
+        <major>3</major>
+        <minor>0</minor>
+        <build>196</build>
+        <revision>959</revision>
+    </m_Version>
+    <m_ClassName text="Leader_Skin"/>
+    <m_DataFiles/>
+    <m_Name text="gajah_skin_diff"/>
+    <m_Description text=""/>
+    <m_Tags>
+        <Element text="Leader"/>
+    </m_Tags>
+    <m_Groups/>
+</AssetObjects..MaterialInstance>

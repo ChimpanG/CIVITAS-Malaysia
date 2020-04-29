@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<AssetObjects::GameArtSpecification>
+<AssetObjects..GameArtSpecification>
 	<id>
 		<name text="CIVITAS [ICON_GREATPERSON] Tun Perak"/>
 		<id text="0090ae17-861b-4926-bf3d-23995a1efe39"/>
@@ -475,6 +475,7 @@
 		<Element>
 			<libraryName text="Leader"/>
 			<relativePackagePaths>
+				<Element text="leaders/leader_test"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
@@ -603,8 +604,8 @@
 	</gameLibraries>
 	<requiredGameArtIDs>
 		<Element>
-			<name text="Civ6"/>
-			<id text="cb2f71b7-843e-4af3-9ca7-992acda9c195"/>
+			<name text="Shared"/>
+			<id text="725760e3-7fc0-4be7-abf1-17bc756d5436"/>
 		</Element>
 	</requiredGameArtIDs>
-</AssetObjects::GameArtSpecification>
+</AssetObjects..GameArtSpecification>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>340</build>
+		<revision>42</revision>
+	</m_Version>
+	<m_ClassName text="Leader"/>
+	<m_PackageName text="leaders/leader_test"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="LEAD_INDO_Gajah"/>
+			<m_ObjectName text="LEAD_INDO_Gajah"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

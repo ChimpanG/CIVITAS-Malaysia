@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<AssetObjects::GameArtSpecification>
+<AssetObjects..GameArtSpecification>
 	<id>
 		<name text="CIVITAS [ICON_GOVERNMENT] Malaysia"/>
 		<id text="faa6a78e-9238-479d-ae3c-ccdadd757ee7"/>
@@ -603,4 +603,4 @@
 			<id text="cb2f71b7-843e-4af3-9ca7-992acda9c195"/>
 		</Element>
 	</requiredGameArtIDs>
-</AssetObjects::GameArtSpecification>
+</AssetObjects..GameArtSpecification>

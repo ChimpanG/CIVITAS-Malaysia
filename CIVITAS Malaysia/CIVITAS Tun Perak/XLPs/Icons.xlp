@@ -14,6 +14,10 @@
 			<m_ObjectName text="CVS_TUN_PERAK_1"/>
 		</Element>
 		<Element>
+			<m_EntryID text="CVS_TUN_PERAK_3"/>
+			<m_ObjectName text="CVS_TUN_PERAK_3"/>
+		</Element>
+		<Element>
 			<m_EntryID text="CVS_TUN_PERAK_4"/>
 			<m_ObjectName text="CVS_TUN_PERAK_4"/>
 		</Element>

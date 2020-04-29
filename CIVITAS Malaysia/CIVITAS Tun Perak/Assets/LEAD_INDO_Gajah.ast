@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..AssetInstance>
+    <m_BehaviorData>
+        <m_behaviorDataSets>
+            <m_animationBindings>
+                <m_Bindings>
+                    <Element>
+                        <m_SlotName text="01_FIRST_MEET"/>
+                        <m_AnimationName text="indonesia_gajah_intro"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="02_DECLARE_WAR_FROM_HUMAN"/>
+                        <m_AnimationName text="indonesia_gajah_attacked"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="03_DECLARE_WAR_FROM_AI"/>
+                        <m_AnimationName text="indonesia_gajah_declare_war"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="04_KUDOS"/>
+                        <m_AnimationName text="indonesia_gajah_peaceful"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="05_WARNING"/>
+                        <m_AnimationName text="indonesia_gajah_hate_idle"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="06_DEFEAT"/>
+                        <m_AnimationName text="indonesia_gajah_defeated"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="DECLARE_WAR_A"/>
+                        <m_AnimationName text="indonesia_gajah_declare_war"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="NEUTRAL_IDLE_A"/>
+                        <m_AnimationName text="indonesia_gajah_neutral_idle"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="NEUTRAL_NEGATIVE_A"/>
+                        <m_AnimationName text="indonesia_gajah_neutral_no_gesture"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="NEUTRAL_NEGATIVE_B"/>
+                        <m_AnimationName text="indonesia_gajah_neutral_no_gesture"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="NEUTRAL_POSITIVE_A"/>
+                        <m_AnimationName text="indonesia_gajah_neutral_yes_gesture"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="NEUTRAL_POSITIVE_B"/>
+                        <m_AnimationName text="indonesia_gajah_neutral_yes_gesture"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="HAPPY_IDLE_A"/>
+                        <m_AnimationName text="indonesia_gajah_neutral_idle"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="HAPPY_NEGATIVE_A"/>
+                        <m_AnimationName text="indonesia_gajah_neutral_no_gesture"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="HAPPY_NEGATIVE_B"/>
+                        <m_AnimationName text="indonesia_gajah_neutral_no_gesture"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="HAPPY_POSITIVE_A"/>
+                        <m_AnimationName text="indonesia_gajah_neutral_yes_gesture"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="HAPPY_POSITIVE_B"/>
+                        <m_AnimationName text="indonesia_gajah_neutral_yes_gesture"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="UNHAPPY_IDLE_A"/>
+                        <m_AnimationName text="indonesia_gajah_hate_idle"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="UNHAPPY_NEGATIVE_A"/>
+                        <m_AnimationName text="indonesia_gajah_hate_no_gesture"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="UNHAPPY_NEGATIVE_B"/>
+                        <m_AnimationName text="indonesia_gajah_hate_no_gesture"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="UNHAPPY_POSITIVE_A"/>
+                        <m_AnimationName text="indonesia_gajah_hate_yes_gesture"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="UNHAPPY_POSITIVE_B"/>
+                        <m_AnimationName text="indonesia_gajah_hate_yes_gesture"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="NEUTRAL_TO_HAPPY"/>
+                        <m_AnimationName text="indonesia_gajah_neutral_idle"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="NEUTRAL_TO_ENRAGED"/>
+                        <m_AnimationName text="indonesia_gajah_trans_neutral_attack"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="NEUTRAL_TO_UNHAPPY"/>
+                        <m_AnimationName text="indonesia_gajah_trans_neutral_attack"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="HAPPY_TO_NEUTRAL"/>
+                        <m_AnimationName text="indonesia_gajah_neutral_idle"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="HAPPY_TO_ENRAGED"/>
+                        <m_AnimationName text="indonesia_gajah_trans_neutral_attack"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="UNHAPPY_TO_NEUTRAL"/>
+                        <m_AnimationName text="indonesia_gajah_trans_hate_peaceful"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="UNHAPPY_TO_ENRAGED"/>
+                        <m_AnimationName text="indonesia_gajah_trans_hate_attack"/>
+                    </Element>
+                </m_Bindings>
+            </m_animationBindings>
+            <m_timelineBindings>
+                <m_Bindings>
+                    <Element>
+                        <m_SlotName text="01_FIRST_MEET"/>
+                        <m_TimelineName text="01_FIRST_MEET"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="02_DECLARE_WAR_FROM_HUMAN"/>
+                        <m_TimelineName text="02_DECLARE_WAR_FROM_HUMAN"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="03_DECLARE_WAR_FROM_AI"/>
+                        <m_TimelineName text="03_DECLARE_WAR_FROM_AI"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="04_KUDOS"/>
+                        <m_TimelineName text="04_KUDOS"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="05_WARNING"/>
+                        <m_TimelineName text="05_WARNING"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="06_DEFEAT"/>
+                        <m_TimelineName text="06_DEFEAT"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="DECLARE_WAR_A"/>
+                        <m_TimelineName text="DECLARE_WAR_A"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="NEUTRAL_IDLE_A"/>
+                        <m_TimelineName text="NEUTRAL_IDLE_A"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="NEUTRAL_NEGATIVE_A"/>
+                        <m_TimelineName text="NEUTRAL_NEGATIVE_A"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="NEUTRAL_NEGATIVE_B"/>
+                        <m_TimelineName text="NEUTRAL_NEGATIVE_B"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="NEUTRAL_POSITIVE_A"/>
+                        <m_TimelineName text="NEUTRAL_POSITIVE_A"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="NEUTRAL_POSITIVE_B"/>
+                        <m_TimelineName text="NEUTRAL_POSITIVE_B"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="HAPPY_IDLE_A"/>
+                        <m_TimelineName text="HAPPY_IDLE_A"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="HAPPY_NEGATIVE_A"/>
+                        <m_TimelineName text="HAPPY_NEGATIVE_A"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="HAPPY_NEGATIVE_B"/>
+                        <m_TimelineName text="HAPPY_NEGATIVE_B"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="HAPPY_POSITIVE_A"/>
+                        <m_TimelineName text="HAPPY_POSITIVE_A"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="HAPPY_POSITIVE_B"/>
+                        <m_TimelineName text="HAPPY_POSITIVE_B"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="UNHAPPY_IDLE_A"/>
+                        <m_TimelineName text="UNHAPPY_IDLE_A"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="UNHAPPY_NEGATIVE_A"/>
+                        <m_TimelineName text="UNHAPPY_NEGATIVE_A"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="UNHAPPY_NEGATIVE_B"/>
+                        <m_TimelineName text="UNHAPPY_NEGATIVE_B"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="UNHAPPY_POSITIVE_A"/>
+                        <m_TimelineName text="UNHAPPY_POSITIVE_A"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="UNHAPPY_POSITIVE_B"/>
+                        <m_TimelineName text="UNHAPPY_POSITIVE_B"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="NEUTRAL_TO_HAPPY"/>
+                        <m_TimelineName text="NEUTRAL_TO_HAPPY"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="NEUTRAL_TO_ENRAGED"/>
+                        <m_TimelineName text="NEUTRAL_TO_ENRAGED"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="NEUTRAL_TO_UNHAPPY"/>
+                        <m_TimelineName text="NEUTRAL_TO_UNHAPPY"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="HAPPY_TO_NEUTRAL"/>
+                        <m_TimelineName text="HAPPY_TO_NEUTRAL"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="HAPPY_TO_ENRAGED"/>
+                        <m_TimelineName text="HAPPY_TO_ENRAGED"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="UNHAPPY_TO_NEUTRAL"/>
+                        <m_TimelineName text="UNHAPPY_TO_NEUTRAL"/>
+                    </Element>
+                    <Element>
+                        <m_SlotName text="UNHAPPY_TO_ENRAGED"/>
+                        <m_TimelineName text="UNHAPPY_TO_ENRAGED"/>
+                    </Element>
+                </m_Bindings>
+            </m_timelineBindings>
+            <m_timelines>
+                <m_Timelines>
+                    <Element>
+                        <m_Name text="01_FIRST_MEET"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_intro"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="02_DECLARE_WAR_FROM_HUMAN"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_attacked"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="03_DECLARE_WAR_FROM_AI"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_declare_war"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="04_KUDOS"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_peaceful"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="05_WARNING"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_hate_idle"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="06_DEFEAT"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_defeated"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="DECLARE_WAR_A"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_declare_war"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="NEUTRAL_IDLE_A"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_neutral_idle"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="NEUTRAL_NEGATIVE_A"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_neutral_no_gesture"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="NEUTRAL_NEGATIVE_B"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_neutral_no_gesture"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="NEUTRAL_POSITIVE_A"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_neutral_yes_gesture"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="NEUTRAL_POSITIVE_B"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_neutral_yes_gesture"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="HAPPY_IDLE_A"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_neutral_idle"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="HAPPY_NEGATIVE_A"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_neutral_no_gesture"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="HAPPY_NEGATIVE_B"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_neutral_no_gesture"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="HAPPY_POSITIVE_A"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_neutral_yes_gesture"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="HAPPY_POSITIVE_B"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_neutral_yes_gesture"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="UNHAPPY_IDLE_A"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_hate_idle"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="UNHAPPY_NEGATIVE_A"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_hate_no_gesture"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="UNHAPPY_NEGATIVE_B"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_hate_no_gesture"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="UNHAPPY_POSITIVE_A"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_hate_yes_gesture"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="UNHAPPY_POSITIVE_B"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_hate_yes_gesture"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="NEUTRAL_TO_HAPPY"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_neutral_idle"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="NEUTRAL_TO_ENRAGED"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_trans_neutral_attack"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="NEUTRAL_TO_UNHAPPY"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_trans_neutral_attack"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="HAPPY_TO_NEUTRAL"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_neutral_idle"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="HAPPY_TO_ENRAGED"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_trans_neutral_attack"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="UNHAPPY_TO_NEUTRAL"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_trans_hate_peaceful"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                    <Element>
+                        <m_Name text="UNHAPPY_TO_ENRAGED"/>
+                        <m_Description text=""/>
+                        <m_AnimationName text="indonesia_gajah_trans_hate_attack"/>
+                        <m_fDuration>0.000000</m_fDuration>
+                        <m_Triggers/>
+                    </Element>
+                </m_Timelines>
+            </m_timelines>
+            <m_attachmentPoints>
+                <m_Points>
+                </m_Points>
+            </m_attachmentPoints>
+        </m_behaviorDataSets>
+        <m_behaviorInstances/>
+        <m_dsgName text="Standard_Leader"/>
+        <m_referenceGeometryNames/>
+    </m_BehaviorData>
+    <m_GeometrySet>
+        <m_ModelInstances>
+            <Element>
+                <m_Name text="MasterCamera"/>
+                <m_GeoName text="LEAD_EGYP_Cleopatra_Camera"/>
+                <m_GroupStates/>
+            </Element>
+            <Element>
+                <m_Name text="pCube1"/>
+                <m_GeoName text="LEAD_GERM_Barbarossa_ShadowBox"/>
+                <m_GroupStates>
+                    <Element>
+                        <m_Values>
+                            <m_Values/>
+                        </m_Values>
+                        <m_GroupName text="lambert1"/>
+                        <m_MeshName text="pCubeShape1"/>
+                        <m_StateName text="Default"/>
+                    </Element>
+                </m_GroupStates>
+            </Element>
+            <Element>
+                <m_Name text="Human"/>
+                <m_GeoName text="indonesia_gajah"/>
+                <m_GroupStates>
+                    <Element>
+                        <m_Values>
+                            <m_Values>
+                                <Element class="AssetObjects..ObjectValue">
+                                    <m_ObjectName text="Gajah_Accessories_DIFF"/>
+                                    <m_eObjectType>MATERIAL</m_eObjectType>
+                                    <m_ParamName text="Material"/>
+                                </Element>
+                            </m_Values>
+                        </m_Values>
+                        <m_GroupName text="Gajah_Accessories_DIFF.dds.001"/>
+                        <m_MeshName text="MESH_GajahMada_Accessories"/>
+                        <m_StateName text="Default"/>
+                    </Element>
+                    <Element>
+                        <m_Values>
+                            <m_Values>
+                                <Element class="AssetObjects..ObjectValue">
+                                    <m_ObjectName text="Gajah_Accessories_DIFF"/>
+                                    <m_eObjectType>MATERIAL</m_eObjectType>
+                                    <m_ParamName text="Material"/>
+                                </Element>
+                            </m_Values>
+                        </m_Values>
+                        <m_GroupName text="Gajah_Accessories_DIFF.dds.002"/>
+                        <m_MeshName text="MESH_GajahMada_Accessories2"/>
+                        <m_StateName text="Default"/>
+                    </Element>
+                    <Element>
+                        <m_Values>
+                            <m_Values>
+                                <Element class="AssetObjects..ObjectValue">
+                                    <m_ObjectName text="Leader_cornea"/>
+                                    <m_eObjectType>MATERIAL</m_eObjectType>
+                                    <m_ParamName text="Material"/>
+                                </Element>
+                            </m_Values>
+                        </m_Values>
+                        <m_GroupName text="NewEye_Spec"/>
+                        <m_MeshName text="MESH_GajahMada_eye_Glass"/>
+                        <m_StateName text="Default"/>
+                    </Element>
+                    <Element>
+                        <m_Values>
+                            <m_Values>
+                                <Element class="AssetObjects..ObjectValue">
+                                    <m_ObjectName text="Gajah_Skin_DIFF"/>
+                                    <m_eObjectType>MATERIAL</m_eObjectType>
+                                    <m_ParamName text="Material"/>
+                                </Element>
+                            </m_Values>
+                        </m_Values>
+                        <m_GroupName text="Gajah_Skin_DIFF.dds.001"/>
+                        <m_MeshName text="MESH_GajahMada_Eyes"/>
+                        <m_StateName text="Default"/>
+                    </Element>
+                    <Element>
+                        <m_Values>
+                            <m_Values>
+                                <Element class="AssetObjects..ObjectValue">
+                                    <m_ObjectName text="Gajah_Hair_DIFF"/>
+                                    <m_eObjectType>MATERIAL</m_eObjectType>
+                                    <m_ParamName text="Material"/>
+                                </Element>
+                            </m_Values>
+                        </m_Values>
+                        <m_GroupName text="Gajah_Hair_DIFF.dds"/>
+                        <m_MeshName text="MESH_GajahMada_Hair"/>
+                        <m_StateName text="Default"/>
+                    </Element>
+                    <Element>
+                        <m_Values>
+                            <m_Values>
+                                <Element class="AssetObjects..ObjectValue">
+                                    <m_ObjectName text="Gajah_Hair_DIFF"/>
+                                    <m_eObjectType>MATERIAL</m_eObjectType>
+                                    <m_ParamName text="Material"/>
+                                </Element>
+                            </m_Values>
+                        </m_Values>
+                        <m_GroupName text="Gajah_Hair_DIFF.dds.001"/>
+                        <m_MeshName text="MESH_GajahMada_Hair2"/>
+                        <m_StateName text="Default"/>
+                    </Element>
+                    <Element>
+                        <m_Values>
+                            <m_Values>
+                                <Element class="AssetObjects..ObjectValue">
+                                    <m_ObjectName text="Gajah_Skin_DIFF"/>
+                                    <m_eObjectType>MATERIAL</m_eObjectType>
+                                    <m_ParamName text="Material"/>
+                                </Element>
+                            </m_Values>
+                        </m_Values>
+                        <m_GroupName text="Gajah_Skin_DIFF.dds"/>
+                        <m_MeshName text="MESH_GajahMada_Hands"/>
+                        <m_StateName text="Default"/>
+                    </Element>
+                    <Element>
+                        <m_Values>
+                            <m_Values>
+                                <Element class="AssetObjects..ObjectValue">
+                                    <m_ObjectName text="Gajah_Skin_DIFF"/>
+                                    <m_eObjectType>MATERIAL</m_eObjectType>
+                                    <m_ParamName text="Material"/>
+                                </Element>
+                            </m_Values>
+                        </m_Values>
+                        <m_GroupName text="Gajah_Skin_DIFF.dds.003"/>
+                        <m_MeshName text="MESH_GajahMada_Head"/>
+                        <m_StateName text="Default"/>
+                    </Element>
+                    <Element>
+                        <m_Values>
+                            <m_Values>
+                                <Element class="AssetObjects..ObjectValue">
+                                    <m_ObjectName text="Gajah_Skin_DIFF"/>
+                                    <m_eObjectType>MATERIAL</m_eObjectType>
+                                    <m_ParamName text="Material"/>
+                                </Element>
+                            </m_Values>
+                        </m_Values>
+                        <m_GroupName text="Gajah_Skin_DIFF.dds.004"/>
+                        <m_MeshName text="MESH_GajahMada_Head2"/>
+                        <m_StateName text="Default"/>
+                    </Element>
+                    <Element>
+                        <m_Values>
+                            <m_Values>
+                                <Element class="AssetObjects..ObjectValue">
+                                    <m_ObjectName text="Gajah_Skin_DIFF"/>
+                                    <m_eObjectType>MATERIAL</m_eObjectType>
+                                    <m_ParamName text="Material"/>
+                                </Element>
+                            </m_Values>
+                        </m_Values>
+                        <m_GroupName text="Gajah_Skin_DIFF.dds.002"/>
+                        <m_MeshName text="MESH_GajahMada_SKIN"/>
+                        <m_StateName text="Default"/>
+                    </Element>
+                    <Element>
+                        <m_Values>
+                            <m_Values>
+                                <Element class="AssetObjects..ObjectValue">
+                                    <m_ObjectName text="Gajah_Accessories_DIFF"/>
+                                    <m_eObjectType>MATERIAL</m_eObjectType>
+                                    <m_ParamName text="Material"/>
+                                </Element>
+                            </m_Values>
+                        </m_Values>
+                        <m_GroupName text="Gajah_Accessories_DIFF.dds"/>
+                        <m_MeshName text="MESH_GajahMada_sword"/>
+                        <m_StateName text="Default"/>
+                    </Element>
+                </m_GroupStates>
+            </Element>
+        </m_ModelInstances>
+    </m_GeometrySet>
+    <m_CookParams>
+        <m_Values/>
+    </m_CookParams>
+    <m_Version>
+        <major>0</major>
+        <minor>0</minor>
+        <build>0</build>
+        <revision>0</revision>
+    </m_Version>
+    <m_ParticleEffects/>
+    <m_Geometries/>
+    <m_Animations/>
+    <m_Materials/>
+    <m_ClassName text="Leader"/>
+    <m_DataFiles/>
+    <m_Name text="LEAD_INDO_Gajah"/>
+    <m_Description text="Indonesia_Gajah"/>
+    <m_Tags>
+        <Element text="Leader"/>
+    </m_Tags>
+    <m_Groups/>
+</AssetObjects..AssetInstance>
